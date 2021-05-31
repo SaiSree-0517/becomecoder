@@ -27,7 +27,7 @@ int main()
                 swap(arr[j], arr[j+1]); //swaps elements
             }
         }
-        if(!s) // breaks if no swap done as it will be sorted
+        if(!s) // breaks if no swap done as it will be already sorted
             break;
     }
     cout<<"After Sorted: ";
